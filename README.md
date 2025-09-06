@@ -1,5 +1,7 @@
 # Household Inventory – Java Spring API
 
+[![Java CI with Maven](https://github.com/merxgrc/household-inventory-java-spring-api/actions/workflows/maven.yml/badge.svg)](https://github.com/merxgrc/household-inventory-java-spring-api/actions/workflows/maven.yml)
+
 This project is a **household inventory management system** designed to track items like food, cleaning supplies, and other materials. The goal is to provide a simple backend service that powers a web or mobile app for personal use.
 
 Beyond personal use, this project demonstrates my ability to design and implement **enterprise-ready backend systems** using modern Java and Spring frameworks.
