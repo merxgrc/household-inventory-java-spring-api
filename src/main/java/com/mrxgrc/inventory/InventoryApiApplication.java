@@ -1,3 +1,4 @@
+// Main entry point of the application
 package com.mrxgrc.inventory;
 
 import org.springframework.boot.SpringApplication;
