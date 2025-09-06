@@ -1,6 +1,7 @@
 // Main entry point of the application
 package com.mrxgrc.inventory;
 
+import com.mrxgrc.inventory.service.ItemService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
