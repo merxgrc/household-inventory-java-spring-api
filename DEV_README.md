@@ -49,3 +49,33 @@ DELETE /api/items/{id} → Delete an item
 * Add authentication and user accounts
 
 * Deploy to cloud (AWS/Azure/GCP/OCI)
+
+## Commit Message Conventions
+
+This project follows [Conventional Commits](https://www.conventionalcommits.org/) for clear and consistent commit history.
+
+### Common Types
+- **feat**: a new feature for the user (e.g., new endpoint, new class)
+    - `feat(controller): add GET /items endpoint`
+- **fix**: a bug fix
+    - `fix(service): correct null pointer in ItemService`
+- **chore**: maintenance tasks that don’t affect functionality (refactors, moving files, updating configs)
+    - `chore(structure): move ItemController into controller package`
+- **test**: adding or updating tests only
+    - `test(repository): add unit tests for ItemRepository`
+- **docs**: documentation changes
+    - `docs(readme): add commit convention guide`
+- **refactor**: code changes that improve structure but don’t change behavior
+    - `refactor(model): simplify Item constructor`
+- **style**: formatting, whitespace, semicolons, etc. (no code logic changes)
+    - `style: reformat code with Google Java Style`
+- **build**: changes to build system, dependencies, or CI/CD
+    - `build(ci): add GitHub Actions workflow for Maven`
+
+### Format
+<type>(optional scope): short description
+
+### Examples
+feat(controller): add GET /items endpoint
+fix(service): correct bug in inventory calculation
+chore(deps): update Spring Boot to 3.5.5
