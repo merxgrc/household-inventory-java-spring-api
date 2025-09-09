@@ -28,3 +28,15 @@ Beyond personal use, this project demonstrates my ability to design and implemen
 - Deploy to the cloud with CI/CD pipelines
 
 For a **detailed technical overview of the backend architecture**, please refer to [DEV_README.md](./DEV_README.md).
+
+## Motivation
+
+When I graduated from Uni I felt like I wanted to help around my house more. So I decided I would 
+be in charge of purchasing groceries, cleaning supplies, and other household items. Then I realized I 
+could use my knowledge of backend development to build a system that would help me manage my inventory
+ensuring that we would always be stocked up!
+### And also of course:
+- To practice backend development with Java and **Spring Framework**
+- To demonstrate my ability to develop Java and Spring applications with **test-driven development** 
+- To demonstrate my ability to design and implement **enterprise-ready backend systems**
+- To demonstrate my ability to use **industry best practices** and clean project structure
