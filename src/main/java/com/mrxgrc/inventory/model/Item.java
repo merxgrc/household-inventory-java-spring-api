@@ -1,17 +1,17 @@
 package com.mrxgrc.inventory.model;
 
 public class Item {
-    private int id;
+    private Long id;
     private String name;
 
     // Constructor
-    public Item(int id, String name) {
+    public Item(Long id, String name) {
         this.id = id;
         this.name = name;
     }
 
     // Getters
-    public int getId() {
+    public Long getId() {
         return id;
     }
     public String getName() {
