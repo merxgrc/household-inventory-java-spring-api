@@ -12,17 +12,24 @@ public class ItemService {
 
     // Constructor
     public ItemService() {
-        items.add(new Item(1, "Hand Soap"));
-        items.add(new Item(2, "Hand Sanitizer"));
-        items.add(new Item(3, "Toilet Paper"));
+        items.add(new Item(1L, "Hand Soap"));
+        items.add(new Item(2L, "Hand Sanitizer"));
+        items.add(new Item(3L, "Toilet Paper"));
     }
 
     public List<Item> getAllItems() {
-
         List<Item> result = new ArrayList<>();
         for (Item item : items) {
             result.add(item);
         }
         return result;
+    }
+
+    public Item findById(Long requestedId) {
+        // Retrieve the item with the given ID from list
+        return items.stream()
+                .filter(item -> item.getId().equals(requestedId))
+                .findFirst()
+                .orElse(null);
     }
 }
